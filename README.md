@@ -29,9 +29,9 @@
 
 ## **_Trello_**
 
-View the project development [here](https://trello.com/invite/b/cLVKQaG9/40fe13adf088a75f97f153b535aff24c/sustainable-seafood)
+###View the project development [here](https://trello.com/invite/b/cLVKQaG9/40fe13adf088a75f97f153b535aff24c/sustainable-seafood)
 
-[Wireframe](https://wireframe.cc/pro/pp/0523794b2563529)
+###[Wireframe](https://wireframe.cc/pro/pp/0523794b2563529)
 ---
 
 ## **_Future Updates_**
