@@ -9,8 +9,12 @@ searchButton.addEventListener('click', async () => {
     const speciesName = response.data[i]["Species Name"]
     speciesArray.push(speciesName)
     speciesArray.sort()
+
+    const speciesNameLi = document.createElement(`li`)
+    
   }
   console.log(speciesArray)
+
   
 } 
 )
