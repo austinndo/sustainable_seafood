@@ -1,6 +1,6 @@
 //Sustainable Seafood
 
-const searchButton = document.getElementById(`search`)
+const searchButton = document.getElementById(`search-btn`)
 const speciesListButton = document.getElementById(`species-list-btn`)
 const speciesList = document.querySelector(`.species-list`)
 const searchInput = document.querySelector(`input`)
@@ -14,6 +14,7 @@ const speciesAvail = document.querySelector(`.species-availability`)
 const speciesFishingRate = document.querySelector(`.species-fishing-rate`)
 const speciesPopulation = document.querySelector(`.species-population`)
 const speciesScientificName = document.querySelector(`.scientific-name`)
+const speciesExtra = document.querySelector(`.species-extra`)
 
 //Get all species names, sorted alphabetically
 speciesListButton.addEventListener('click', async () => {
@@ -49,18 +50,20 @@ searchButton.addEventListener('click', async () => {
   const speciesSourceData = response.data[0]["Source"]
   const speciesPopulationData = response.data[0]["Population"]
   const speciesScientificNameData = response.data[0]["Scientific Name"]
+  const speciesExtraData = response.data[0]["Quote"]
 
   let i = response.data[0]["Image Gallery"].length
   const speciesImage1Data = response.data[0]["Image Gallery"][1]["src"]
   const speciesImage2Data = response.data[0]["Image Gallery"][(i - 1)]["src"]
-  speciesImage1.innerHTML = `<img src="${speciesImage1Data}">`
+  //speciesImage1.innerHTML = `<img src="${speciesImage1Data}">`
   speciesImage2.innerHTML = `<img src="${speciesImage2Data}">`
   
   speciesName.innerHTML = `${speciesNameData}    <em> (${speciesScientificNameData}) </em>`
-  speciesSource.innerHTML = `Source: ${speciesSourceData}`  
-  speciesAvail.innerHTML = `Availability: ${speciesAvailData}` 
-  speciesFishingRate.innerHTML = `Fishing Rate: ${speciesFishingRateData}`
-  speciesPopulation.innerHTML = `Population: ${speciesPopulationData}`
+  speciesSource.innerHTML = `Source: <br>${speciesSourceData}`  
+  speciesAvail.innerHTML = `Availability: <br>${speciesAvailData}` 
+  speciesFishingRate.innerHTML = `Fishing Rate: <br>${speciesFishingRateData}`
+  speciesPopulation.innerHTML = `Population: <br>${speciesPopulationData}`
+  speciesExtra.innerHTML = speciesExtraData
 
 })
 
