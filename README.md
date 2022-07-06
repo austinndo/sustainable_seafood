@@ -41,8 +41,14 @@
 
 ---
 https://www.pixelstalk.net/wp-content/uploads/2016/06/Ocean-underwater-light-wallpaper-hd.jpg
+
 https://www.pixelstalk.net/wp-content/uploads/images4/Blue_Ocean_Underwater_Wallpaper_HD_1080p.jpg
 
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F97836.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fminimalist-ocean&tbnid=TTWRcjz-DLPtCM&vet=12ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygIegUIARDUAQ..i&docid=duIbXXxHVyZH3M&w=1600&h=1200&q=marine%20minimalist%20aesthetic&ved=2ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygIegUIARDUAQ
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2801593.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fminimalist-sea&tbnid=j8DMsIcjf4u62M&vet=12ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygQegUIARDoAQ..i&docid=rqKCzsWuoqFKYM&w=1242&h=2208&q=marine%20minimalist%20aesthetic&ved=2ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygQegUIARDoAQ
+
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2801591.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fminimalist-sea&tbnid=HRFg9HG8WANVWM&vet=12ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygcegUIARCHAg..i&docid=rqKCzsWuoqFKYM&w=1332&h=850&q=marine%20minimalist%20aesthetic&ved=2ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygcegUIARCHAg
 
 
 ---

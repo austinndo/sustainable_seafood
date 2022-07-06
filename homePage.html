@@ -10,34 +10,46 @@
   <link rel="stylesheet" href="homeStyle.css" />
   <script defer src="script.js" charset="utf-8"></script>
   <title>Sustainable Seafood</title>
+
 </head>
 
 <body>
+<div class="main-header">
   <div class="title">
     <h2>Sustainable Seafood</h2>
   </div>
 
   <div class="nav-bar">
-    <button id="about"><a href='about.html'>About</a></button>
-
+    <button id="species-list-btn">Species List</button>
     <button id="sources"><a href='sources.html'>Sources</a></button>
+    <button id="about"><a href='about.html'>About</a></button>
   </div>
 
   <div class="search-bar">
-    <button id="species-list-btn">Species List</button>
     <input type="text" placeholder="Fish Name" />
     <button id="search">Go Fish</button>
   </div>
+</div>
 
-  <div class="species-list-container">
-    <ul class="species-list">
-      <!--Append species from API-->
-    </ul>
+<div class="species-list-container">
+  <ul class="species-list">
+    <!--Append w/species from API call-->
+  </ul>
+</div>
+
+<div class="species-info">
+  <!--Populate with fish data-->
+  <div class="species-name"></div>
+  <div class="species-info-imgs">
+    <div class="species-img1"></div>
+    <div class="species-img2"></div>
   </div>
-
-
-
-
+  <div class="species-source"></div>
+  <div class="species-availability"></div>
+  <div class="species-fishing-rate"></div>
+  <div class="species-population"></div>
+  <div class="scientific-name"></div>
+</div>
 
 
 
