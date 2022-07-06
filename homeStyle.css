@@ -1,5 +1,9 @@
 body {
-  background-color: rgba(154, 188, 255, 0.803);
-  background-image: url("assets/blue_ocean_underwater.jpg");
-  background-repeat: no-repeat;
+  background-color: rgb(47, 135, 198);
+  font-family: 'Quicksand', sans-serif;
 }
+
+.species-list {
+  
+}
+

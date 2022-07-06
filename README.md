@@ -4,7 +4,7 @@
 
 ### By: Austin Do
 
-#### **[LinkedIn](https://www.linkedin.com/in/austin-do-7195b913a/) | [GitHub](https://github.com/austinndo) | [Kaggle](https://www.kaggle.com/austindo)**
+#### **[LinkedIn](https://www.linkedin.com/in/austin-do/) | [GitHub](https://github.com/austinndo) | [Kaggle](https://www.kaggle.com/austindo)**
 
 ---
 
