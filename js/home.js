@@ -7,8 +7,7 @@ const searchInput = document.querySelector(`input`)
 
 //Species Info
 const speciesName = document.querySelector(`.species-name`)
-const speciesImage1 = document.querySelector(`.species-img1`)
-const speciesImage2 = document.querySelector(`.species-img2`)
+const speciesImage = document.querySelector(`.species-img`)
 const speciesSource = document.querySelector(`.species-source`)
 const speciesAvail = document.querySelector(`.species-availability`)
 const speciesFishingRate = document.querySelector(`.species-fishing-rate`)
@@ -16,6 +15,9 @@ const speciesPopulation = document.querySelector(`.species-population`)
 const speciesScientificName = document.querySelector(`.scientific-name`)
 const speciesExtra = document.querySelector(`.species-extra`)
 const speciesInfo = document.querySelector(`.species-info`)
+
+let speciesListDivCount = 0
+
 
 //Get all species names, sorted alphabetically
 showListButton.addEventListener('click', async () => {
@@ -53,12 +55,13 @@ searchButton.addEventListener('click', async () => {
   const speciesScientificNameData = response.data[0]["Scientific Name"]
   const speciesExtraData = response.data[0]["Quote"]
 
+  //Set image
   let i = response.data[0]["Image Gallery"].length
-  const speciesImage1Data = response.data[0]["Image Gallery"][1]["src"]
-  const speciesImage2Data = response.data[0]["Image Gallery"][(i - 1)]["src"]
-  //speciesImage1.innerHTML = `<img src="${speciesImage1Data}">`
-  speciesImage2.innerHTML = `<img src="${speciesImage2Data}">`
+  const speciesImageData = response.data[0]["Image Gallery"][(i - 1)]["src"]
+  speciesImage.innerHTML = `<img id="species-imgData" src="${speciesImageData}">`
+  console.log(speciesImageData)
   
+  //Set species info
   speciesName.innerHTML = `<b>${speciesNameData}</b> <em> (${speciesScientificNameData}) </em>`
   speciesSource.innerHTML = `<b>Source:</b> <br>${speciesSourceData}`  
   speciesAvail.innerHTML = `<b>Availability:</b> <br>${speciesAvailData}` 
@@ -69,6 +72,8 @@ searchButton.addEventListener('click', async () => {
   speciesInfo.setAttribute("id","speciesInfo")
   }
 )
+
+
 
 
 
