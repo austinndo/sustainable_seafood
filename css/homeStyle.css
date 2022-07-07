@@ -1,10 +1,15 @@
+html {
+  background: url("/assets/fish_underwater.jpg");
+  background-size: 100vh 100vh;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
-  background: linear-gradient(rgb(0, 119, 125), rgb(29, 29, 142));
 }
 
 .main-header {
   font-size: 32px;
+  background: grey;
 }
 
 .title {
@@ -16,13 +21,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   height: 28px;
-  margin: 0 0 28px 0;
+  margin: 20px 0 20px 0;
 }
 
-#species-list-btn, #sources-btn, #about-btn {
-  border: 2px solid black;
-  border-radius: 20% 20%;
-  background-color: grey;
+#speciesList-btn, #sources-btn, #about-btn {
   width: 20%;
   font-size: 60%;
   text-decoration: none;
@@ -33,7 +35,7 @@ button:hover {
 }
 
 input {
-  width: 75%;
+  width: 85%;
 }
 
 .search-bar {
@@ -57,18 +59,40 @@ input {
 .species-info {
   display: flex;
   flex-direction: column;
+  /* background: grey;
+  border: 2px solid black; */
 }
 
 .species-name {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
 
 .species-img-and-data-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-start: auto;
-  column-gap: 30px;
+  column-gap: 20px;
+  margin: 20px 10px 0 10px;
 }
+
+.species-img1, .species-img2 {
+  object-fit: cover;
+}
+
+.species-fishing-rate, .species-population {
+  margin: 20px 0 0 0;
+}
+
+.species-extra {
+  margin: 20px 10px 10px 10px;
+  font-size: 18px;
+}
+
+
+
 
 

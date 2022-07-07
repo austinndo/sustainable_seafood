@@ -50,6 +50,8 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F
 
 https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2801591.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fminimalist-sea&tbnid=HRFg9HG8WANVWM&vet=12ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygcegUIARCHAg..i&docid=rqKCzsWuoqFKYM&w=1332&h=850&q=marine%20minimalist%20aesthetic&ved=2ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygcegUIARCHAg
 
+https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F13%2F195913-050-396DEEC4%2FWorld-map-Oceans-Continents-Mendel.jpg&f=1&nofb=1
+
 
 ---
 

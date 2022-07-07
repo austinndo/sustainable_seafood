@@ -58,18 +58,14 @@ searchButton.addEventListener('click', async () => {
   //speciesImage1.innerHTML = `<img src="${speciesImage1Data}">`
   speciesImage2.innerHTML = `<img src="${speciesImage2Data}">`
   
-  speciesName.innerHTML = `${speciesNameData}    <em> (${speciesScientificNameData}) </em>`
-  speciesSource.innerHTML = `Source: <br>${speciesSourceData}`  
-  speciesAvail.innerHTML = `Availability: <br>${speciesAvailData}` 
-  speciesFishingRate.innerHTML = `Fishing Rate: <br>${speciesFishingRateData}`
-  speciesPopulation.innerHTML = `Population: <br>${speciesPopulationData}`
+  speciesName.innerHTML = `<b>${speciesNameData}</b> <em> (${speciesScientificNameData}) </em>`
+  speciesSource.innerHTML = `<b>Source:</b> <br>${speciesSourceData}`  
+  speciesAvail.innerHTML = `<b>Availability:</b> <br>${speciesAvailData}` 
+  speciesFishingRate.innerHTML = `<b>Fishing Rate:</b> <br><br>${speciesFishingRateData}`
+  speciesPopulation.innerHTML = `<b>Population:</b> <br><br>${speciesPopulationData}`
   speciesExtra.innerHTML = speciesExtraData
+  }
+)
 
-})
-
-
-//map
-//sort
-//filter
 
 

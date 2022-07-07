@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(154, 188, 255, 0.803);
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#species-list-btn, #home-btn, #about-btn {
+  width: 20%;
+  font-size: 60%;
+  text-decoration: none;
+}
+
