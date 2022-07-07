@@ -1,7 +1,7 @@
 //Sustainable Seafood
 
 const searchButton = document.getElementById(`search-btn`)
-const speciesListButton = document.getElementById(`species-list-btn`)
+const showListButton = document.getElementById(`showList-btn`)
 const speciesList = document.querySelector(`.species-list`)
 const searchInput = document.querySelector(`input`)
 
@@ -15,9 +15,10 @@ const speciesFishingRate = document.querySelector(`.species-fishing-rate`)
 const speciesPopulation = document.querySelector(`.species-population`)
 const speciesScientificName = document.querySelector(`.scientific-name`)
 const speciesExtra = document.querySelector(`.species-extra`)
+const speciesInfo = document.querySelector(`.species-info`)
 
 //Get all species names, sorted alphabetically
-speciesListButton.addEventListener('click', async () => {
+showListButton.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species/`)
   let speciesArray = []
 
@@ -64,6 +65,8 @@ searchButton.addEventListener('click', async () => {
   speciesFishingRate.innerHTML = `<b>Fishing Rate:</b> <br><br>${speciesFishingRateData}`
   speciesPopulation.innerHTML = `<b>Population:</b> <br><br>${speciesPopulationData}`
   speciesExtra.innerHTML = speciesExtraData
+
+  speciesInfo.setAttribute("id","speciesInfo")
   }
 )
 

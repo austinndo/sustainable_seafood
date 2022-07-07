@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/homeStyle.css" />
   <script defer src="/js/home.js" charset="utf-8"></script>
   <title>Sustainable Seafood</title>
@@ -15,21 +15,24 @@
 
 <body>
 
-<div class="title">
-  <h2>Sustainable Seafood</h2>
-</div>
-
 <div class="main-header">
+  <div class="title">
+    <h2>Sustainable Seafood</h2>
+  </div>
+
   <div class="nav-bar">
     <a id="speciesList-btn" href='/html/speciesList.html'>Species List</a>
     <a id="sources-btn" href='/html/sources.html'>Sources</a>
     <a id="about-btn" href='/html/about.html'>About</a>
   </div>
-  <div class="search-bar">
-    <input type="text" placeholder="Fish Species Name" />
-    <button id="search-btn">Go Fish</button>
-  </div>
 </div>
+
+<div class="search-bar">
+  <input type="text" placeholder="Fish Species Name" />
+  <button id="search-btn">Go Fish</button>
+</div>
+
+<button id="showList-btn">Show Species</button>
 
 <div class="species-list-container">
   <ul class="species-list">

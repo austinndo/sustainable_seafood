@@ -1,12 +1,18 @@
 body {
   background-color: rgba(154, 188, 255, 0.803);
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#species-list-btn, #home-btn, #about-btn {
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgba(2, 6, 54, 0.75);
+}
+
+#specieList-btn, #home-btn, #about-btn {
   width: 20%;
   font-size: 60%;
   text-decoration: none;

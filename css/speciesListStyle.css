@@ -1,12 +1,13 @@
 html {
   background: url("/assets/fish_underwater.jpg");
   background-size: 100vh 100vh;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .title {
   display: flex;
   justify-content: center;
+  color: rgba(2, 6, 54, 0.75);
 }
 
 .nav-bar {
@@ -41,4 +42,8 @@ html {
   column-gap: 30px;
 }
 
-
+#speciesInfo{
+  border: 2px solid black;
+  margin: 20px 20px 20px 20px;
+  background: rgba(128, 128, 128, 0.68);
+}

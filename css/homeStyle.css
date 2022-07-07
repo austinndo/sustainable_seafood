@@ -4,24 +4,24 @@ html {
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .main-header {
   font-size: 32px;
-  background: grey;
 }
 
 .title {
   display: flex;
   justify-content: center;
+  color: rgba(2, 6, 54, 0.75);
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
   height: 28px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 60px 0;
 }
 
 #speciesList-btn, #sources-btn, #about-btn {
@@ -36,6 +36,14 @@ button:hover {
 
 input {
   width: 85%;
+  font-family: 'Inter', sans-serif;
+  background: rgba(124, 179, 180, 0.222);
+  border: 2px solid rgba(0, 0, 0, 0.376);
+}
+
+#search-btn {
+  font-family: 'Inter', sans-serif;
+  background: rgba(255, 255, 255, 0.80);
 }
 
 .search-bar {
@@ -54,6 +62,11 @@ input {
   grid-template-columns: repeat(3, 1fr);
   grid-column-start: auto;
   column-gap: 30px;
+}
+
+/* Check this css style for show list btn */
+#showList-btn {
+  display: none;
 }
 
 .species-info {
