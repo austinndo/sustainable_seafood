@@ -18,34 +18,16 @@ const speciesInfo = document.querySelector(`.species-info`)
 
 let speciesListDivCount = 0
 
-
-//Get all species names, sorted alphabetically
-showListButton.addEventListener('click', async () => {
-  let response = await axios.get(`https://www.fishwatch.gov/api/species/`)
-  let speciesArray = []
-
-  for (let i = 0; i < response.data.length; i++) {
-    const speciesNameData = response.data[i]["Species Name"]
-    speciesArray.push(speciesNameData)}
-
-  speciesArray.sort()
-
-  for (let i = 0; i < speciesArray.length; i++) {
-    const speciesNameLi = document.createElement(`li`)
-    speciesNameLi.innerHTML = speciesArray[i]
-    speciesList.append(speciesNameLi)}
-  }
-)
-
 //Search for a particular fish
 searchButton.addEventListener('click', async () => {
   let searchValue = searchInput.value
   let response = await axios.get(`https://www.fishwatch.gov/api/species/${searchValue}`)
   
-  //For testing, see the data
-  let responseFull = await axios.get(`https://www.fishwatch.gov/api/species/`)
-  console.log(responseFull)
-  //
+  speciesInfo.style.opacity = "1"
+  // //For testing, see the data
+  // let responseFull = await axios.get(`https://www.fishwatch.gov/api/species/`)
+  // console.log(responseFull)
+  // //
 
   const speciesNameData = response.data[0]["Species Name"]
   const speciesAvailData = response.data[0]["Availability"]

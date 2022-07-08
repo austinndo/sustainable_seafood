@@ -8,8 +8,10 @@ const showListBtnD = document.querySelector(`.showListD`)
 const showListBtnE = document.querySelector(`.showListE`)
 const showListBtnF = document.querySelector(`.showListF`)
 let speciesList = document.querySelector(`.species-list`)
+let speciesAlphabetical = document.querySelector(`.species-alphabetical`)
 
 speciesList.innerHTML = ""
+speciesAlphabetical.innerHTML = ""
 
 //Species Info
 const speciesScientificName = document.querySelector(`.scientific-name`)
@@ -30,7 +32,7 @@ showListBtn.addEventListener('click', async () => {
   for (let i = 0; i < speciesArray.length; i++) {
     const speciesNameLi = document.createElement(`li`)
     speciesNameLi.innerHTML = speciesArray[i]
-    speciesList.append(speciesNameLi)}
+    speciesAlphabetical.append(speciesNameLi)}
   }
 )
 
@@ -39,6 +41,7 @@ showListBtnA.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species`)
   let speciesArray = []
   speciesList.innerHTML = ""
+  speciesAlphabetical.innerHTML = ""
 
   for (let i = 0; i < 20; i++) {
     const speciesNameData = response.data[i]["Species Name"]
@@ -58,6 +61,7 @@ showListBtnB.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species`)
   let speciesArray = []
   speciesList.innerHTML = ""
+  speciesAlphabetical.innerHTML = ""
 
   for (let i = 20; i < 40; i++) {
     const speciesNameData = response.data[i]["Species Name"]
@@ -76,6 +80,7 @@ showListBtnC.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species`)
   let speciesArray = []
   speciesList.innerHTML = ""
+  speciesAlphabetical.innerHTML = ""
 
   for (let i = 40; i < 60; i++) {
     const speciesNameData = response.data[i]["Species Name"]
@@ -94,6 +99,7 @@ showListBtnD.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species`)
   let speciesArray = []
   speciesList.innerHTML = ""
+  speciesAlphabetical.innerHTML = ""
 
   for (let i = 60; i < 80; i++) {
     const speciesNameData = response.data[i]["Species Name"]
@@ -112,6 +118,7 @@ showListBtnE.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species`)
   let speciesArray = []
   speciesList.innerHTML = ""
+  speciesAlphabetical.innerHTML = ""
 
   for (let i = 80; i < 100; i++) {
     const speciesNameData = response.data[i]["Species Name"]
@@ -130,6 +137,7 @@ showListBtnF.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species`)
   let speciesArray = []
   speciesList.innerHTML = ""
+  speciesAlphabetical.innerHTML = ""
 
   for (let i = 100; i < response.data.length; i++) {
     const speciesNameData = response.data[i]["Species Name"]

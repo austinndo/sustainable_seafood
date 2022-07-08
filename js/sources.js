@@ -1,9 +1,36 @@
+//Sources
+//API call to get source data of each species. Sort species by which ocean they are found
+
 const oceansImg = document.getElementById(`oceans`)
 const speciesSource = document.querySelector(`.sources-list`)
 const speciesName = document.querySelector(`.species-name`)
+const fishBtn = document.querySelector(`.go-fish`)
+const pacificBtn = document.querySelector(`#pacific`)
+const atlanticBtn = document.querySelector(`#atlantic`)
+const gulfOfMexicoBtn = document.querySelector(`#gulfOfMexico`)
+const caribbeanBtn = document.querySelector(`#caribbean`)
 
-oceansImg.addEventListener('click', async () => {
+let fishBtnContainer = document.querySelector(`.go-fish-container`)
+let fishingBoat = document.querySelector(`.fishing-boat`)
+let speciesList = document.querySelector(`.species-list`)
+
+fishingBoat.innerHTML = ""
+
+pacificBtn.style.opacity = "0"
+atlanticBtn.style.opacity = "0"
+gulfOfMexicoBtn.style.opacity = "0"
+caribbeanBtn.style.opacity = "0"
+
+fishBtn.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species/`)
+  fishingBoat.innerHTML = `<img id="fish-boat" src="/assets/fishing_boat.png"/>`
+  fishBtnContainer.innerHTML = `<p> Going out to sea . . . </p>`
+
+  pacificBtn.style.opacity = "1"
+  atlanticBtn.style.opacity = "1"
+  gulfOfMexicoBtn.style.opacity = "1"
+  caribbeanBtn.style.opacity = "1"
+
   let speciesNameArray = []
   let speciesSourceArray = []
 
@@ -69,39 +96,51 @@ oceansImg.addEventListener('click', async () => {
     //     }
   } 
   
-//Show sources-options class
+console.log(pacific)
 
-
-
-
-
-  console.log(pacific)
-  console.log(atlantic)
-  console.log(gulfOfMexico)
-  console.log(caribbean)
-  console.log(other)
-  
+  //Click Pacific
+  pacificBtn.addEventListener('click', () => {
+    speciesList.innerHTML = ""
+    for (let i = 0; i < pacific.length; i++) {
+      const speciesNameLi = document.createElement(`li`)
+      speciesNameLi.innerHTML = pacific[i]
+      speciesList.append(speciesNameLi)
+    }
   }
 )
 
+  //Click Atlantic
+  atlanticBtn.addEventListener('click', () => {
+    speciesList.innerHTML = ""
+    for (let i = 0; i < atlantic.length; i++) {
+      const speciesNameLi = document.createElement(`li`)
+      speciesNameLi.innerHTML = atlantic[i]
+      speciesList.append(speciesNameLi)
+    }
+  }
+)
 
-  //speciesSourceArray.sort()
+  //Click Gulf of Mexico
+  gulfOfMexicoBtn.addEventListener('click', () => {
+    speciesList.innerHTML = ""
+    for (let i = 0; i < gulfOfMexico.length; i++) {
+      const speciesNameLi = document.createElement(`li`)
+      speciesNameLi.innerHTML = gulfOfMexico[i]
+      speciesList.append(speciesNameLi)
+    }
+  }
+)
 
-  // speciesNameArray.sort()
-  // speciesNameArray.push(speciesNameData)}
-
-  // speciesSourceLi.innerHTML = speciesSourceArray[i]
-  // speciesSource.append(speciesSourceLi)}
-
-
-const speciesAvail = document.querySelector(`.species-availability`)
-
-const speciesFishingRate = document.querySelector(`.species-fishing-rate`)
-
-
-
-// Gulf of Mexico - Texas, Louisiana, Florida, Mexico
-// Caribbean - Puerto Rico, Caribbean
-//
-//
-//
+  //Click Caribbean
+  caribbeanBtn.addEventListener('click', () => {
+    speciesList.innerHTML = ""
+    for (let i = 0; i < caribbean.length; i++) {
+      const speciesNameLi = document.createElement(`li`)
+      speciesNameLi.innerHTML = caribbean[i]
+      speciesList.append(speciesNameLi)
+    }
+  }
+)
+  
+  }
+)

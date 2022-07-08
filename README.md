@@ -52,7 +52,7 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F
 
 https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F13%2F195913-050-396DEEC4%2FWorld-map-Oceans-Continents-Mendel.jpg&f=1&nofb=1
 
-
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.thenounproject.com%2Fpng%2F23815-200.png&imgrefurl=https%3A%2F%2Fthenounproject.com%2Ficon%2Ffishing-vessel-23815%2F&tbnid=1l3kFCEGB4UVyM&vet=12ahUKEwi30dX-vuj4AhWHAzQIHZKWCtIQxiAoBnoECAAQIw..i&docid=ydR2-b7x0gHS3M&w=200&h=200&itg=1&q=fishing%20boat%20emoji&ved=2ahUKEwi30dX-vuj4AhWHAzQIHZKWCtIQxiAoBnoECAAQIw
 ---
 
 ## **_Credits_**
@@ -60,3 +60,5 @@ https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2
 ### 1. Images: [DuckDuckGo Search](https://duckduckgo.com/)
 
 ### 2. [FishWatch](https://www.fishwatch.gov/developers?ref=publicapis.dev)
+
+### 3. [Magnifying Glass](https://stackoverflow.com/questions/12036038/is-there-unicode-glyph-symbol-to-represent-search)
