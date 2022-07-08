@@ -38,13 +38,13 @@
 ## **_Images_**
 
 ### **Fish Background**
-![fishBackground](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2801591.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Fminimalist-sea&tbnid=HRFg9HG8WANVWM&vet=12ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygcegUIARCHAg..i&docid=rqKCzsWuoqFKYM&w=1332&h=850&q=marine%20minimalist%20aesthetic&ved=2ahUKEwiwsY7s1uT4AhUcg2oFHfZEDDAQMygcegUIARCHAg)
+![fishBackground](https://wallpaperaccess.com/full/2801591.jpg)
 
 ### **Map of Oceans**
 ![mapOfOceans](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F13%2F195913-050-396DEEC4%2FWorld-map-Oceans-Continents-Mendel.jpg&f=1&nofb=1)
 
 ### **Boat**
-![boat](https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.thenounproject.com%2Fpng%2F23815-200.png&imgrefurl=https%3A%2F%2Fthenounproject.com%2Ficon%2Ffishing-vessel-23815%2F&tbnid=1l3kFCEGB4UVyM&vet=12ahUKEwi30dX-vuj4AhWHAzQIHZKWCtIQxiAoBnoECAAQIw..i&docid=ydR2-b7x0gHS3M&w=200&h=200&itg=1&q=fishing%20boat%20emoji&ved=2ahUKEwi30dX-vuj4AhWHAzQIHZKWCtIQxiAoBnoECAAQIw)
+![boat](https://static.thenounproject.com/png/23815-200.png)
 
 ---
 
