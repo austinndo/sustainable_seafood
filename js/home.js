@@ -41,7 +41,6 @@ searchButton.addEventListener('click', async () => {
   let i = response.data[0]["Image Gallery"].length
   const speciesImageData = response.data[0]["Image Gallery"][(i - 1)]["src"]
   speciesImage.innerHTML = `<img id="species-imgData" src="${speciesImageData}">`
-  console.log(speciesImageData)
   
   //Set species info
   speciesName.innerHTML = `<b>${speciesNameData}</b> <em> (${speciesScientificNameData}) </em>`

@@ -25,6 +25,7 @@ body {
 
 .nav-bar {
   display: flex;
+  justify-content: center;
   justify-content: space-evenly;
   height: 28px;
   margin: 25px 0 20px 0;
@@ -47,8 +48,8 @@ body {
 }
 
 .showList, .showListA, .showListB, .showListC, .showListD, .showListE, .showListF {
-background: rgba(124, 145, 180, 0.4);
-border: 2px solid rgba(14, 24, 128, 0.5);
+background: rgba(0, 0, 0, 0.40);
+color: rgba(2, 6, 54, 0.75);
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 border-top-right-radius: 10px;
@@ -78,6 +79,7 @@ align-items: center;
   grid-column-start: auto;
   column-gap: 40px;
   row-gap: 10px;
+  margin: 20px 20px 20px 20px;
 }
 
 .species-list {
@@ -86,6 +88,7 @@ align-items: center;
   grid-column-start: auto;
   column-gap: 40px;
   row-gap: 30px;
+  margin: 20px 20px 20px 20px;
 }
 
 #speciesInfo{

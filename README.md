@@ -62,3 +62,5 @@ https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.thenounproject.com%2Fp
 ### 2. [FishWatch](https://www.fishwatch.gov/developers?ref=publicapis.dev)
 
 ### 3. [Magnifying Glass](https://stackoverflow.com/questions/12036038/is-there-unicode-glyph-symbol-to-represent-search)
+
+### 4. [Ted Danson Quote](https://todayinsci.com/D/Danson_Ted/DansonTed-Quotations.htm)

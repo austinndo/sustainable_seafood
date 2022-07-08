@@ -13,6 +13,7 @@ const caribbeanBtn = document.querySelector(`#caribbean`)
 let fishBtnContainer = document.querySelector(`.go-fish-container`)
 let fishingBoat = document.querySelector(`.fishing-boat`)
 let speciesList = document.querySelector(`.species-list`)
+let sourceDescription = document.querySelector(`#source-description`)
 
 fishingBoat.innerHTML = ""
 
@@ -24,7 +25,8 @@ caribbeanBtn.style.opacity = "0"
 fishBtn.addEventListener('click', async () => {
   let response = await axios.get(`https://www.fishwatch.gov/api/species/`)
   fishingBoat.innerHTML = `<img id="fish-boat" src="/assets/fishing_boat.png"/>`
-  fishBtnContainer.innerHTML = `<p> Going out to sea . . . </p>`
+  fishBtnContainer.innerHTML = `<p id="source-description"> Going out to sea . . . </p>`
+  sourceDescription.innerHTML = ""
 
   pacificBtn.style.opacity = "1"
   atlanticBtn.style.opacity = "1"
@@ -95,8 +97,6 @@ fishBtn.addEventListener('click', async () => {
     //     other.push(speciesNameData)
     //     }
   } 
-  
-console.log(pacific)
 
   //Click Pacific
   pacificBtn.addEventListener('click', () => {

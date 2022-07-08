@@ -40,6 +40,7 @@ h2 {
 
 .nav-bar {
   display: flex;
+  justify-content: center;
   justify-content: space-evenly;
   height: 28px;
   margin: 25px 0 20px 0;
