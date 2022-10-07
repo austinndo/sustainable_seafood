@@ -1,4 +1,4 @@
-//Sustainable Seafood
+//Species
 
 const showListBtn = document.querySelector(`.showList`)
 const showListBtnA = document.querySelector(`.showListA`)

@@ -21,40 +21,36 @@ let speciesListDivCount = 0
 //Search for a particular fish
 searchButton.addEventListener('click', async () => {
   let searchValue = searchInput.value
-  let response = await axios.get(`https://www.fishwatch.gov/api/species/${searchValue}`)
-  
-  speciesInfo.style.opacity = "1"
+  let response = await axios.get(
+    `https://www.fishwatch.gov/api/species/${searchValue}`
+  )
+
+  speciesInfo.style.opacity = '1'
   // //For testing, see the data
   // let responseFull = await axios.get(`https://www.fishwatch.gov/api/species/`)
   // console.log(responseFull)
   // //
 
-  const speciesNameData = response.data[0]["Species Name"]
-  const speciesAvailData = response.data[0]["Availability"]
-  const speciesFishingRateData = response.data[0]["Fishing Rate"]
-  const speciesSourceData = response.data[0]["Source"]
-  const speciesPopulationData = response.data[0]["Population"]
-  const speciesScientificNameData = response.data[0]["Scientific Name"]
-  const speciesExtraData = response.data[0]["Quote"]
+  const speciesNameData = response.data[0]['Species Name']
+  const speciesAvailData = response.data[0]['Availability']
+  const speciesFishingRateData = response.data[0]['Fishing Rate']
+  const speciesSourceData = response.data[0]['Source']
+  const speciesPopulationData = response.data[0]['Population']
+  const speciesScientificNameData = response.data[0]['Scientific Name']
+  const speciesExtraData = response.data[0]['Quote']
 
   //Set image
-  let i = response.data[0]["Image Gallery"].length
-  const speciesImageData = response.data[0]["Image Gallery"][(i - 1)]["src"]
+  let i = response.data[0]['Image Gallery'].length
+  const speciesImageData = response.data[0]['Image Gallery'][i - 1]['src']
   speciesImage.innerHTML = `<img id="species-imgData" src="${speciesImageData}">`
-  
+
   //Set species info
   speciesName.innerHTML = `<b>${speciesNameData}</b> <em> (${speciesScientificNameData}) </em>`
-  speciesSource.innerHTML = `<b>Source:</b> <br>${speciesSourceData}`  
-  speciesAvail.innerHTML = `<b>Availability:</b> <br>${speciesAvailData}` 
+  speciesSource.innerHTML = `<b>Source:</b> <br>${speciesSourceData}`
+  speciesAvail.innerHTML = `<b>Availability:</b> <br>${speciesAvailData}`
   speciesFishingRate.innerHTML = `<b>Fishing Rate:</b> <br><br>${speciesFishingRateData}`
   speciesPopulation.innerHTML = `<b>Population:</b> <br><br>${speciesPopulationData}`
   speciesExtra.innerHTML = speciesExtraData
 
-  speciesInfo.setAttribute("id","speciesInfo")
-  }
-)
-
-
-
-
-
+  speciesInfo.setAttribute('id', 'speciesInfo')
+})
